@@ -1,0 +1,148 @@
+<aside class="main-sidebar sidebar-dark-primary elevation-4 ">
+    <a href="categorias/lista" class="brand-link ">
+        <img src="assets/images/4.png " alt="SIFAC " class="brand-image img-circle ">
+        <span class="brand-text font-weight-light ">SIFAC v1.0</span>
+    </a>
+    <div class="sidebar ">
+        <nav class="mt-2 ">
+            <ul class="nav nav-pills nav-sidebar flex-column " data-widget="treeview " role="menu " data-accordion="false ">
+                <li class="nav-item ">
+                    <a [class]="getClaseCSS( 'Dashboard' )" (click)="activarMenu( 'Dashboard' )">
+                        <i class="nav-icon fas fa-chart-pie "></i>
+                        <p> Dashboard
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-header ">CONFIGURACION</li>
+
+                <li class="nav-item ">
+                    <a [class]="getClaseCSS( 'Empleados' )" routerLink="/empleado/lista" (click)="activarMenu( 'Empleados' )">
+                        <i class=" nav-icon fa fa-address-book"></i>
+                        <p> Empleados</p>
+
+                    </a>
+                </li>
+                <li class="nav-header ">CATALOGOS</li>
+                <li class="nav-item ">
+                    <a [class]="getClaseCSS( 'Zonas' )" routerLink="/zona/lista" (click)="activarMenu( 'Zonas' )">
+                        <i class="nav-icon fa fa-map-marker"></i>
+                        <p>
+                            Zonas
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a [class]="getClaseCSS( 'Categorias' )" routerLink="/categorias/lista" (click)="activarMenu( 'Categorias' )">
+                        <i class="nav-icon fa fa-th-large"></i>
+                        <p>
+                            Categorias
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a [class]="getClaseCSS( 'Marcas' )" routerLink="/marcas/lista" (click)="activarMenu( 'Marcas' )">
+                        <i class="nav-icon fa fa-bold"></i>
+                        <p>
+                            Marcas
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item ">
+                    <a [class]="getClaseCSS( 'Productos' )" routerLink="/producto/lista" (click)="activarMenu( 'Productos' )">
+                        <i class="nav-icon fas fa-table "></i>
+                        <p>
+                            Productos
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a [class]="getClaseCSS( 'Rutas' )" routerLink="/ruta/lista" (click)="activarMenu( 'Rutas' )">
+                        <i class="nav-icon  fa fa-random"></i>
+                        <p>
+                            Rutas
+                        </p>
+                    </a>
+                </li>
+                <!-- <li class="nav-item ">
+                    <a href="# " class="nav-link ">
+                        <i class="nav-icon fa fa-archive"></i>
+                        <p>
+                            Bodegas
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-header ">CUENTAS</li>
+                <li class="nav-item ">
+                    <a href="# " class="nav-link ">
+                        <i class="nav-icon fa fa-male"></i>
+                        <p>
+                            Clientes
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="# " class="nav-link ">
+                        <i class="nav-icon  fa fa-address-card"></i>
+                        <p>
+                            Cuentas
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item ">
+                    <a href="# " class="nav-link ">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+                        <p>
+                            Pagos
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-header ">INVENTARIO</li>
+                <li class="nav-item ">
+                    <a href="pages/calendar.html " class="nav-link ">
+                        <i class="nav-icon  fa fa-user"></i>
+                        <p>
+                            Proveedores
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="pages/calendar.html " class="nav-link ">
+                        <i class="nav-icon fa fa-indent"></i>
+                        <p>
+                            Entradas
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="pages/gallery.html " class="nav-link ">
+                        <i class="nav-icon fa fa-outdent" aria-hidden="true"></i>
+                        <p>
+                            Salidas
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="pages/kanban.html " class="nav-link ">
+                        <i class="nav-icon fa fa-shopping-cart"></i>
+                        <p>
+                            Facturas
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="pages/calendar.html " class="nav-link ">
+                        <i class="nav-icon fa fa-shopping-bag"></i>
+                        <p>
+                            Encargos
+                        </p>
+                    </a>
+                </li> -->
+            </ul>
+        </nav>
+
+    </div>
+
+</aside>
